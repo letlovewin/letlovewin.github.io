@@ -1,19 +1,15 @@
-p {
-    font-family: 'Ubuntu',sans-serif;
-}
-
-h1 {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-h2 {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-h3 {
-    font-family: 'Ubuntu', sans-serif;
+body {
+    background-color: #fffbe6;
+    color: #0a0a0a;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
 .subtitle {
     font-size: smaller;
 }
+
+@media only screen and (min-width: 360px) {
+    .main-container {
+      max-width: 60%;
+    }
+  }
