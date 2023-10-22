@@ -1,16 +1,60 @@
+:root {
+  --main-text-color: #353535;
+}
+
 body {
-    background-color: #fffefc;
-    color: #0a0a0a;
-    font-family: 'Tilt Neon', sans-serif;
+  background-color: #fffdfe;
+  font-family: 'Tilt Neon', sans-serif;
+  text-transform: lowercase;
+}
+
+h1 {
+  color: var(--main-text-color);
+}
+
+h2 {
+  color: var(--main-text-color);
+}
+
+h3 {
+  color: var(--main-text-color);
+}
+
+h4 {
+  color: var(--main-text-color);
+}
+
+h5 {
+  color: var(--main-text-color);
+}
+
+h6 {
+  color: var(--main-text-color);
+}
+
+p {
+  color: var(--main-text-color);
+}
+
+a {
+  color: #ff8ed0;
+}
+
+hr {
+  border-top: 5px dotted var(--main-text-color);
 }
 
 .subtitle {
-    font-size: smaller;
-    text-transform: lowercase;
+  font-size: smaller;
+  margin-bottom: 2px;
 }
 
 @media only screen and (min-width: 360px) {
-    .main-container {
-      max-width: 60%;
-    }
+  .main-container {
+    max-width: 80%;
   }
+
+  .bio-container {
+    max-width: 60%;
+  }
+}
