@@ -3,8 +3,8 @@
 }
 
 body {
-  background-color: #fffdfe;
-  font-family: 'Tilt Neon', sans-serif;
+  background-color: #ffffff;
+  font-family: 'Fraunces', serif;
   text-transform: lowercase;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 a {
-  color: #ff8ed0;
+  color: #144bff;
 }
 
 hr {
