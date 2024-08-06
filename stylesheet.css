@@ -43,11 +43,6 @@ hr {
   border-top: 5px dotted var(--main-text-color);
 }
 
-.subtitle {
-  font-size: smaller;
-  margin-bottom: 2px;
-}
-
 .main-container {
   width: 40%;
 }
@@ -58,6 +53,12 @@ hr {
 
   display: flex;
   align-items: center;
+}
+
+a {
+  color:dodgerblue;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {
